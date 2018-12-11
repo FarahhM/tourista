@@ -12,9 +12,9 @@
     <h4 class="titles">Visiting Season:</h4>
     <p>{{destination.optimal_visiting_season}}</p>
     <a href="{% url 'destination-update' destination.id %}">
-        <button type="button" class="btn btn-light marginbottom">Update</button>
+        <button type="button" class="btn btn-info marginbottom">Update</button>
     </a>
     <a href="{% url 'destination-delete' destination.id %}">
-        <button type="button" class="btn btn-dark marginbottom">Delete</button>
+        <button type="button" class="btn btn-light marginbottom">Delete</button>
     </a>
 {% endblock content %}

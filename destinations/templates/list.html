@@ -6,13 +6,13 @@
 <br>
 <div class="row  margintop">
   {% for destination in destinations %}
-  <div class="col-4 col-md-12 col-lg-12"> 
+  <div class="col-12 col-md-6 col-lg-12"> 
   <div class="card-deck">
   <div class="card border-light mb3 cards" width= "18rem;">
   	<a href="{% url 'destination-detail' destination.id %}">
     <img class="card-img-top" src="{{destination.pretty_picture.url}}" >
     <div class="card-body">
-      <h3 class="card-title">{{destination.name}}</h3>
+      <h3 class="card-title" style="font-weight: bold;">{{destination.name}}</h3>
       <p class="card-text">{{destination.activities}}</p> 
     </div>
   </div>

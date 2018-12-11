@@ -6,6 +6,7 @@ img.card-img-top {
   width: 100%;
   border-top-left-radius: calc(.25rem - 1px);
   border-top-right-radius: calc(.25rem - 1px);
+
 }
 a{
 	color: #455A64;
@@ -18,6 +19,9 @@ a{
 }
 body{
 	background-color: #FFF;
+
+  
+}
 
 }
 img.detailed{
